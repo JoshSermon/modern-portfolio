@@ -1,4 +1,4 @@
-# modern-portfolio
+# Modern-Portfolio
 
 ## Setup
 
