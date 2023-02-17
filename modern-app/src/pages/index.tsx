@@ -3,13 +3,13 @@ import Header from "components/Header";
 import { Inter } from '@next/font/google'
 import Hero from "components/Hero";
 import * as React from "react";
+import { NextPage } from 'next';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
-  return (
-    <>
-    <div>
+const Home: NextPage = () => {
+  return ( 
+    <div className="bg-zinc-800 text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
         <title>Josh HiTech's Portfolio</title>
       </Head>
@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
 
       {/* Hero */}
-      <section id="hero">
+      <section id="hero" className="snap-center">
       <Hero />
       </section>
       {/* About */}
@@ -30,6 +30,7 @@ export default function Home() {
 
       {/* Contact Me */}
       </div>
-    </>
   )
 }
+
+export default Home;
