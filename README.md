@@ -6,6 +6,7 @@
 - [Typescript](https://nextjs.org/docs)
 - [Tailwind](https://tailwindcss.com/docs/guides/nextjs)
 - [Motion Framer](https://www.framer.com/motion/)
+- [React Awesome Reveal](https://react-awesome-reveal.morello.dev/)
 
 ## Installation 
 
