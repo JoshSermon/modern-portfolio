@@ -4,6 +4,8 @@
 
 - [React.js](https://beta.reactjs.org/)
 - [Typescript](https://nextjs.org/docs)
+- [Tailwind](https://tailwindcss.com/docs/guides/nextjs)
+- [Motion Framer](https://www.framer.com/motion/)
 
 ## Installation 
 
