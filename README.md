@@ -2,7 +2,7 @@
 
 ## Setup
 
-- [Eslint.js](https://eslint.org/docs/latest/)
+- [React.js](https://beta.reactjs.org/)
 - [Typescript](https://nextjs.org/docs)
 
 ## Installation 
