@@ -24,4 +24,4 @@ npm run dev
 
 ## NVM Version
 - [Node Version Manager] (https://github.com/nvm-sh/nvm)
-- node v15.8.0
+- node v19.5.0
