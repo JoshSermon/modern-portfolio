@@ -3,6 +3,7 @@ import Header from "components/Header";
 import { Inter } from '@next/font/google'
 import Hero from "components/Hero";
 import About from "components/About";
+import Skills from "components/Skills";
 import * as React from "react";
 import { NextPage } from 'next';
 import Experience from 'components/Experience';
@@ -35,6 +36,12 @@ const Home: NextPage = () => {
       </section>
 
       {/* Skills */}
+      <section id="skills" className="snap-start">
+      < Skills />
+      </section>
+
+
+
 
       {/* Projects */}
 

@@ -19,7 +19,7 @@ export default function Hero({}: Props) {
          <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10 ">Josh HiTech</h1>
         </Fade>
         <Background />
-        <img className="relative rounded h-32 w-32 mx-auto object-cover" src="https://lh3.googleusercontent.com/a/AEdFTp7kj4hhYKhTAbAG5k24ZyO0_OoK49QfgGFd6_7wfg=s288" alt="" ></img>
+        <img className="relative rounded h-32 w-32 mx-auto object-cover" src="https://ca.slack-edge.com/T02QUCP5J-U02JH3N6WPM-465398917323-512" alt="" ></img>
 
 
     <div className="pt-5 z-20">
@@ -42,6 +42,3 @@ export default function Hero({}: Props) {
 </div>  
     )
 }
-
-
-// Stopped at 1:05:48

@@ -6,7 +6,7 @@ interface Props {};
 function ExperienceCard({}: Props) {
     return (
         <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] 
-        md:w-[600px] xl:w-[900px] snap-start bg-[#292929] p-10 hover:opacity-100 opacity-40 
+        md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 
         cursor-pointer transition-opacity duration-200 overflow-hidden">
           <motion.div
             initial={{
@@ -18,7 +18,7 @@ function ExperienceCard({}: Props) {
             viewport={{ once: true}}
             />
           <img className="w-32 h-32 rounded-full xl:w-[200px] object-cover object-center"
-          src="https://lh3.googleusercontent.com/a/AEdFTp7kj4hhYKhTAbAG5k24ZyO0_OoK49QfgGFd6_7wfg=s288"
+          src="https://media.licdn.com/dms/image/C4E0BAQG1W7IM12V7cA/company-logo_200_200/0/1644873692106?e=1684972800&v=beta&t=iLb-POOyFy4PV0yBQspwaGkAI8MtHJIFK-ZjVnW9yn4"
           alt=""
           />
 
