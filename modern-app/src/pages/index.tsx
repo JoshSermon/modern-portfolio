@@ -5,6 +5,7 @@ import Hero from "components/Hero";
 import About from "components/About";
 import Skills from "components/Skills";
 import Projects from "components/Projects";
+import Contact from "components/Contact";
 import * as React from "react";
 import { NextPage } from 'next';
 import Experience from 'components/Experience';
@@ -50,6 +51,9 @@ const Home: NextPage = () => {
 
 
       {/* Contact Me */}
+      <section id="contact" className="snap-start">
+      < Contact />
+      </section>
       </div>
   )
 }
