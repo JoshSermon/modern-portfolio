@@ -4,6 +4,12 @@
 
 @layer components {
     .heroButton{
-        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7AB0A]/40
+        @apply px-12 py-2 border border-[#f8fafc] rounded-full uppercase text-sm tracking-widest transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7AB0A]/40
+    }
+
+    .contactInput{
+        @apply outline-none bg-slate-800 rounded-sm border-b px-6 py-4 border-[#ffffff]
+        text-gray-500 placeholder-gray-100 transition-all focus:border-[#ffffff]/40
+        focus:text-[#ffffff]/40 hover:border-[#ffffff]/40
     }
 }
