@@ -6,7 +6,12 @@ import TechnicalSkillsThree from "./TechnicalSkillsThree";
 import TechnicalSkillsFour from "./TechnicalSkillsFour";
 import TechnicalSkillsFive from "./TechnicalSkillsFive";
 import TechnicalSkillsSix from "./TechnicalSkillsSix";
-
+import TechnicalSkillsSeven from "./TechnicalSkillsSeven";
+import TechnicalSkillsEight from "./TechnicalSkillsEight";
+import TechnicalSkillsNine from "./TechnicalSkillsNine";
+import TechnicalSkillsTen from "./TechnicalSkillsTen";
+import TechnicalSkillsEleven from "./TechnicalSkillsEleven";
+import TechnicalSkillsTwelve from "./TechnicalSkillsTwelve";
 
 interface Props {}
 
@@ -20,8 +25,6 @@ function Skills({}: Props) {
          xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto">
             <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-100 text-2xl">Skills</h3>
 
-            <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-100 text-sm">Hover over a skill for currency proficiency</h3>
-
             <div className="grid grid-cols-4 gap-5"> 
                 <TechnicalSkills />
                 <TechnicalSkillsTwo />
@@ -29,12 +32,12 @@ function Skills({}: Props) {
                 <TechnicalSkillsFour />
                 <TechnicalSkillsFive />
                 <TechnicalSkillsSix />
-                <TechnicalSkills />
-                <TechnicalSkills />
-                <TechnicalSkills />
-                <TechnicalSkills />
-                <TechnicalSkills />
-                <TechnicalSkills />
+                <TechnicalSkillsSeven />
+                <TechnicalSkillsEight />
+                <TechnicalSkillsNine />
+                <TechnicalSkillsTen />
+                <TechnicalSkillsEleven />
+                <TechnicalSkillsTwelve />
             </div>
         </motion.div>
     )

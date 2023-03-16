@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 interface Props {};
 
 function Projects({}: Props) {
-    const projects = [1, 2];
+    const projects = [1];
     return (
         <motion.div className="h-screen relative flex overflow-hidden flex-column 
         text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
@@ -20,7 +20,8 @@ function Projects({}: Props) {
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
                 items-center justify-center p-20 md:p-44 h-screen">
                 <Fade direction="down">
-                <img src="https://www.ashimamittal.com/wp-content/uploads/2022/08/Netflix-on-multiple-devices.png"
+                <img src="/images/mexico-project.png"
+                className="rounded-none border w-72 h-96 xl:w-96 xl:h-72"
                 alt="">
                 </img>
                 </Fade>
@@ -28,13 +29,11 @@ function Projects({}: Props) {
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                 <h4 className="text-3xl font-semibold text-center">
                     <span className="underline decoration-[#FFFFFF]/50">
-                    Case Study {i + 1} of {projects.length}: Mexico City  
+                    Mexico City  
                     </span>  
                 </h4>
-                <p className="text-lg text-center md:text-left">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Dignissimos provident sint reiciendis rerum cumque distinctio eos repellendus necessitatibus numquam laborum quaerat culpa, 
-                    nam voluptatibus ipsa obcaecati. Nisi in dolorem nesciunt?
+                <p className="text-xl text-center">
+                Recently, I created this website to celebrate Cinco de Mayo. I was inspired by history of Mexico and wanted to create a website that gave a positive representation of the capital. This website is reflective of the Mexican flag and has multiple animations to provide an authentic user experience.
                 </p>
 
 
