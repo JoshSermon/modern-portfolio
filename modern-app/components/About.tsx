@@ -25,17 +25,17 @@ function About({}: Props) {
             }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            src="https://ca.slack-edge.com/T02QUCP5J-U02JH3N6WPM-465398917323-512"
+            src="https://pbs.twimg.com/profile_images/1636142180392681472/HOW_Lnmo_400x400.jpg"
             className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px]"
             />
 
             <div className="space-y-10 px-0 md:px-10">
-                <h4 className="text-4xl font-semibold">
-                Here is a <span className="underline decoration-[#F7AB0A]/50">little</span>{''} background</h4>
-                <p className="text-base">
-                Hi, I'm Josh HiTech!
+                <h4 className="text-6xl font-semibold">
+                Background <span className="underline decoration-[#F7AB0A]/50"></span>{''}</h4>
+                <p className="text-xl">
+                Hi, I'm <span className="underline decoration-[#f8fafc]/50">Josh HiTech</span>!
                 I'm a Front End Developer who creates successful websites that meet customer needs. 
-                I have experience producing impactful, innovative websites that engage customers and deliver business results. 
+                I have experience producing innovative websites that engage customers and deliver business results. 
                 In addition, I am solution-driven to fix bugs that will allow websites to run efficiently.
                 </p>
             </div>

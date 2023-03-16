@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 interface Props {}
 
-function TechnicalSkills({}: Props) {
+function TechnicalSkillsTwo({}: Props) {
     return (    
 <div className="group relative flex cursor-pointer">
         <motion.img
@@ -13,8 +13,8 @@ function TechnicalSkills({}: Props) {
          }}
          transition={{ duration: 1 }}
          whileInView={{ opacity: 1, x: 0 }} 
-         src="images/typescript-logo.svg"
-         className="object-cover w-24 h-24 xl:w-32 xl:h-32 
+         src="/images/React-icon.png"
+         className="rounded-none w-24 h-24 xl:w-32 xl:h-32 
          filter group-hover:grayscale transition duration-300 ease-in-out"/>
          <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300
          ease-in-out group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 z-0">
@@ -26,4 +26,4 @@ function TechnicalSkills({}: Props) {
     )
 }
 
-export default TechnicalSkills
+export default TechnicalSkillsTwo;

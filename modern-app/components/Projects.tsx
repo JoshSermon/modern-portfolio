@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 interface Props {};
 
 function Projects({}: Props) {
-    const projects = [1, 2, 3, 4, 5];
+    const projects = [1, 2];
     return (
         <motion.div className="h-screen relative flex overflow-hidden flex-column 
         text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">

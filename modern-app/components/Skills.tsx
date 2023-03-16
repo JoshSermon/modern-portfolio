@@ -1,6 +1,11 @@
 import * as React from 'react';
 import { motion } from "framer-motion";
 import TechnicalSkills from "components/TechnicalSkills";
+import TechnicalSkillsTwo from "components/TechnicalSkillsTwo";
+import TechnicalSkillsThree from "./TechnicalSkillsThree";
+import TechnicalSkillsFour from "./TechnicalSkillsFour";
+import TechnicalSkillsFive from "./TechnicalSkillsFive";
+import TechnicalSkillsSix from "./TechnicalSkillsSix";
 
 
 interface Props {}
@@ -19,11 +24,11 @@ function Skills({}: Props) {
 
             <div className="grid grid-cols-4 gap-5"> 
                 <TechnicalSkills />
-                <TechnicalSkills />
-                <TechnicalSkills />
-                <TechnicalSkills />
-                <TechnicalSkills />
-                <TechnicalSkills />
+                <TechnicalSkillsTwo />
+                <TechnicalSkillsThree />
+                <TechnicalSkillsFour />
+                <TechnicalSkillsFive />
+                <TechnicalSkillsSix />
                 <TechnicalSkills />
                 <TechnicalSkills />
                 <TechnicalSkills />

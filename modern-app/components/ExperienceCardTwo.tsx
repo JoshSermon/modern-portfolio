@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { motion } from "framer-motion";
+
 interface Props {};
 
-function ExperienceCard({}: Props) {
+function ExperienceCardTwo({}: Props) {
     return (
         <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] 
         md:w-[600px] xl:w-[900px] snap-center bg-[#334155] p-10 hover:opacity-100 opacity-40 
@@ -16,21 +17,21 @@ function ExperienceCard({}: Props) {
             whileInView={{ opacity: 1, y: 0}}
             viewport={{ once: true}}
             />
-          <img className="w-48 h-48 rounded-full xl:w-[200px] object-cover object-center"
-          src="https://media.licdn.com/dms/image/C4E0BAQG1W7IM12V7cA/company-logo_200_200/0/1644873692106?e=1684972800&v=beta&t=iLb-POOyFy4PV0yBQspwaGkAI8MtHJIFK-ZjVnW9yn4"
+          <img className="w-48 h-48 rounded-full xl:w-[200px] object-cover object-center mt-0"
+          src="https://media.licdn.com/dms/image/C4E0BAQHrv722D7WD0A/company-logo_200_200/0/1519864784368?e=1686787200&v=beta&t=ucyqG82saoqjMjfsYyIBHJ4_HdSMM8sY2P6iJMxwwLY"
           alt=""
           />
 
         <div className="px-0 md:px-10">
-            <h4 className="text-4xl font-light text-center">LUCKIE</h4>
+            <h4 className="text-4xl font-light text-center">RESOLVVE</h4>
             <p className="font-bold text-2xl mt-1 text-center">Front End Engineer</p>
             <div className="flex space-x-2 my-2 justify-center">
                 <img className="h-14 w-14"
-                src="/images/aem-logo.png"
+                src="/images/React-icon.png"
                 alt="" 
                 />
                 <img className="h-14 w-14"
-                src="images/sass.png"
+                src="/images/bootstrap-logo.png"
                 alt="" 
                 />
                 <img className="h-14 w-14"
@@ -38,12 +39,12 @@ function ExperienceCard({}: Props) {
                 alt="" 
                 />
             </div>
-            <p className="uppercase py-5 text-gray-300">Started work Oct 2021 - Current</p>
+            <p className="uppercase py-5 text-gray-300">Started work Aug 2020 - Ended Oct 2021</p>
 
             <ul className="list-disc space-y-4 ml-5 text-lg">
-            <li>Contributed to implementing scalable functionality for clients that increased web performance using JavaScript and SASS. Built the logic for a streamlined ad-serving platform. </li>
-            <li>Designed and implemented several web applications for projects using a content management system Adobe Experience Manager.</li>
-            <li>Created and maintained front-end code for 5+ healthcare websites (re-designs, seasonal updates, production work).</li>
+                <li>Develop new UI functionality for multithreaded user-facing applications running on touchscreen devices, using React.js and Bootstrap.</li>
+                <li>Contributed to web development projects from initial design through the completion, optimizing all cross-browser and multi-platform compatibility.</li>
+                <li>Worked in an agile environment with weekly stand-ups, kept of user stories/bugs in Trello, and conducted sprint planning.</li>
             </ul>
 
             </div>
@@ -51,4 +52,4 @@ function ExperienceCard({}: Props) {
     )
 }
 
-export default ExperienceCard;
+export default ExperienceCardTwo;
