@@ -21,7 +21,7 @@ export default function Hero({}: Props) {
         <img className="relative rounded h-72 w-672 mx-auto object-cover" src="https://ca.slack-edge.com/T02QUCP5J-U02JH3N6WPM-465398917323-512" alt="" ></img>
 
 
-    <div className="pt-5 space-x-3.5 z-20">
+    <div className="pt-5 space-x-3.5 md:space-x-3.5 z-20">
     <Link href="#about">
         <button className="heroButton">About</button>
     </Link>
@@ -31,7 +31,7 @@ export default function Hero({}: Props) {
     </Link>
 
     <Link href="#skills">
-        <button className="heroButton">Skills</button>
+        <button className="heroButton pl-5 md:pl-12">Skills</button>
     </Link>
 
     <Link href="#projects">

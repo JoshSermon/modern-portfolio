@@ -32,8 +32,12 @@ function Contact({}: Props) {
 
                 <div className="space-y-10">
                     <div className="flex items-center space-x-5 justify-center">
-                        <EnvelopeIcon className="text-[#94a3b8] h-7 w-7 animate-pulse" />
+                    <a href="mailto:hitechcodebase@gmail.com">
+                        <EnvelopeIcon className="text-[#ffffff] h-7 w-7 animate-pulse" />
+                        </a>
+                        <a href="mailto:hitechcodebase@gmail.com">
                         <p className="text-2xl">hitechcodebase@gmail.com</p>
+                        </a>
                     </div>
                 </div>
 

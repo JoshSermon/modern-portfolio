@@ -55,20 +55,17 @@ const Home: NextPage = () => {
       < Contact />
       </section>
 
-      <div>
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <img className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0
-            cursor-pointer"
-            src="https://ca.slack-edge.com/T02QUCP5J-U02JH3N6WPM-465398917323-512"
+            <img className="h-7 w-10 rounded-none filter grayscale hover:grayscale-0
+            cursor-pointer md:hidden"
+            src="images/hitech-white-logo.png"
             alt=""
             />
           </div>
         </footer>
       </Link>
-      </div>
-      
       </div>
   )
 }

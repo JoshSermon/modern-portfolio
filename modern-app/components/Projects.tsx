@@ -18,17 +18,19 @@ function Projects({}: Props) {
             snap-x snap-mandatory z-20 scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
             {projects.map((project, i) => (
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
-                items-center justify-center p-20 md:p-44 h-screen">
+                items-center justify-center p-20 md:p-44 h-screen mt-28 md:mt-none ">
                 <Fade direction="down">
+                <a href="https://joshsermon.github.io/inspire/" target="_blank">
                 <img src="/images/mexico-project.png"
-                className="rounded-none border w-72 h-96 xl:w-96 xl:h-72"
+                className="rounded-none border w-72 h-48 xl:w-96 xl:h-72"
                 alt="">
                 </img>
+                </a>
                 </Fade>
 
-            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+            <div className="space-y-4 px-0 md:px-10 max-w-6xl">
                 <h4 className="text-3xl font-semibold text-center">
-                    <span className="underline decoration-[#FFFFFF]/50">
+                    <span>
                     Mexico City  
                     </span>  
                 </h4>
@@ -42,8 +44,8 @@ function Projects({}: Props) {
             ))}
         </div>
 
-            <div className="w-full absolute top-[30%] bg-[#FFFFFF]/10 left-0 h-[500px] skew-y-12">
-            </div>
+            {/* <div className="w-full absolute top-[30%] bg-[#FFFFFF]/10 left-0 h-[500px] skew-y-12">
+            </div> */}
         </motion.div>
     )
 }

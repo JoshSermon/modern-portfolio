@@ -26,7 +26,7 @@ function About({}: Props) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             src="https://pbs.twimg.com/profile_images/1636142180392681472/HOW_Lnmo_400x400.jpg"
-            className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px]"
+            className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full mt-10 md:mt-none object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px]"
             />
 
             <div className="space-y-10 px-0 md:px-10">

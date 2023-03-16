@@ -5,7 +5,7 @@ interface Props {};
 function ExperienceCard({}: Props) {
     return (
         <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] 
-        md:w-[600px] xl:w-[900px] snap-center bg-[#334155] p-10 hover:opacity-100 opacity-40 
+        md:w-[600px] xl:w-[900px] snap-center bg-[#334155] p-5 hover:opacity-100 opacity-40 
         cursor-pointer transition-opacity duration-200 overflow-hidden">
           <motion.div
             initial={{
@@ -21,7 +21,7 @@ function ExperienceCard({}: Props) {
           alt=""
           />
 
-        <div className="px-0 md:px-10">
+        <div className="px-0 md:px-5">
             <h4 className="text-2xl md:text-4xl font-light text-center">LUCKIE</h4>
             <p className="font-bold text:lg md:text-2xl mt-1 text-center">Front End Engineer</p>
             <div className="flex space-x-2 my-2 justify-center">
