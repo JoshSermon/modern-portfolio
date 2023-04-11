@@ -10,6 +10,7 @@ import * as React from "react";
 import { NextPage } from 'next';
 import Experience from 'components/Experience';
 import Link from 'next/link';
+import YoutubeEmbed from 'components/YouTubeEmbed';
 
 const Home: NextPage = () => {
   return ( 
@@ -31,6 +32,12 @@ const Home: NextPage = () => {
       <section id="about" className="snap-center">
         <About />
       </section>
+
+    {/* About */}
+    <section id="youtube" className="snap-center">
+        <YoutubeEmbed />
+      </section>
+
 
       {/* Experience */}
       <section id="experience" className="snap-center">
