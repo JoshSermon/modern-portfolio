@@ -33,8 +33,8 @@ function About({}: Props) {
                 <h4 className="text-6xl font-semibold">
                 Background <span className="underline decoration-[#F7AB0A]/50"></span>{''}</h4>
                 <p className="text-xl">
-                Hi, I'm <span className="underline decoration-[#f8fafc]/50">Josh HiTech</span>!
-                I'm a Front End Developer who creates successful websites that meet customer needs. 
+                Hi, I am <span className="underline decoration-[#f8fafc]/50">Josh HiTech</span>!
+                I am a Front End Developer who creates successful websites that meet customer needs. 
                 I have experience producing innovative websites that engage customers and deliver business results. 
                 In addition, I am solution-driven to fix bugs that will allow websites to run efficiently.
                 </p>

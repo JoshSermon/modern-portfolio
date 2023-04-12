@@ -17,10 +17,12 @@ function Projects({}: Props) {
             <div className="relative w-full flex overflow-x-scroll overflow-y-hidden 
             snap-x snap-mandatory z-20 scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
             {projects.map((project, i) => (
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
+                <div 
+                key={i}
+                className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
                 items-center justify-center p-10 md:p-44 h-screen mt-28 md:mt-none ">
                 <Fade direction="down">
-                <a href="https://joshsermon.github.io/inspire/" target="_blank">
+                <a href="https://joshsermon.github.io/inspire/" target="_blank" rel="noreferrer">
                 <img src="/images/mexico-project.png"
                 className="rounded-none border w-72 h-48 xl:w-96 xl:h-72"
                 alt="">

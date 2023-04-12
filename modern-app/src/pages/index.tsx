@@ -10,14 +10,14 @@ import * as React from "react";
 import { NextPage } from 'next';
 import Experience from 'components/Experience';
 import Link from 'next/link';
-import YoutubeEmbed from 'components/YouTubeEmbed';
+import YoutubeEmbed from 'components/YoutubeEmbed';
 
 const Home: NextPage = () => {
   return ( 
     <div className="transition-all duration-200 bg-gradient-to-r from-slate-700 via-slate-400 to-slate-700 background-animate text-white h-screen snap-y snap-mandatory
      overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
       <Head>
-        <title>Josh HiTech's Portfolio</title>
+        <title>Josh HiTech Portfolio</title>
       </Head>
 
       <Header />
