@@ -11,14 +11,14 @@ function Projects({}: Props) {
     return (
         <motion.div className="h-screen relative flex overflow-hidden flex-column 
         text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-100 text-2xl">Projects 
+            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-100 text-2xl pl-6 md:pl-0">Projects 
             </h3>
 
             <div className="relative w-full flex overflow-x-scroll overflow-y-hidden 
             snap-x snap-mandatory z-20 scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
             {projects.map((project, i) => (
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
-                items-center justify-center p-20 md:p-44 h-screen mt-28 md:mt-none ">
+                items-center justify-center p-10 md:p-44 h-screen mt-28 md:mt-none ">
                 <Fade direction="down">
                 <a href="https://joshsermon.github.io/inspire/" target="_blank">
                 <img src="/images/mexico-project.png"
@@ -34,7 +34,7 @@ function Projects({}: Props) {
                     Mexico City  
                     </span>  
                 </h4>
-                <p className="text-xl text-center">
+                <p className="text-md lg:text-xl text-center w-fit lg:w-full">
                 Recently, I created this website to celebrate Cinco de Mayo. I was inspired by history of Mexico and wanted to create a website that gave a positive representation of the capital. This website is reflective of the Mexican flag and has multiple animations to provide an authentic user experience.
                 </p>
 

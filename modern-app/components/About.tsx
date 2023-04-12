@@ -10,7 +10,7 @@ function About({}: Props) {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
         className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-100 text-2xl">
+            <h3 className="absolute top-24 pl-6 md:pl-0 uppercase tracking-[20px] text-center text-gray-100 text-2xl">
             About
             </h3>
 
@@ -26,7 +26,7 @@ function About({}: Props) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             src="https://pbs.twimg.com/profile_images/1636142180392681472/HOW_Lnmo_400x400.jpg"
-            className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full mt-10 md:mt-none object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px]"
+            className="-mb-20 md:mb-0 flex-shrink-0 w-48 h-48 rounded-full mt-10 md:mt-none object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px]"
             />
 
             <div className="space-y-10 px-0 md:px-10">

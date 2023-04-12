@@ -5,7 +5,7 @@ interface Props {};
 
 function ExperienceCardTwo({}: Props) {
     return (
-        <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] 
+        <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] 
         md:w-[600px] xl:w-[900px] snap-center bg-[#334155] p-5 hover:opacity-100 opacity-40 
         cursor-pointer transition-opacity duration-200 overflow-hidden">
           <motion.div
@@ -39,9 +39,9 @@ function ExperienceCardTwo({}: Props) {
                 alt="" 
                 />
             </div>
-            <p className="uppercase py-5 text-gray-300 text-sm md:text-xl text-center">Started work Aug 2020 - Ended Oct 2021</p>
+            <p className="uppercase py-5 text-gray-300 text-xs md:text-xl text-center">Started work Aug 2020 - Ended Oct 2021</p>
 
-            <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg">
+            <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg w-5/6 text-center md:text-left md:w-full">
                 <li>Develop new UI functionality for multithreaded user-facing applications running on touchscreen devices, using React.js and Bootstrap.</li>
                 <li>Contributed to web development projects from initial design through the completion, optimizing all cross-browser and multi-platform compatibility.</li>
                 <li>Worked in an agile environment with weekly stand-ups, kept of user stories/bugs in Trello, and conducted sprint planning.</li>

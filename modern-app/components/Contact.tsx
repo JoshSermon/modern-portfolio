@@ -20,10 +20,10 @@ function Contact({}: Props) {
     return (
         <div className="h-screen relative flex overflow-hidden flex-column 
         text-center md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-100 text-2xl">Contact 
+            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-100 text-2xl pl-6 md:pl-0">Contact 
             </h3>
 
-            <div className="flex flex-col space-y-10">
+            <div className="flex flex-col space-y-10 w-screen">
                 <h4 className="text-3xl font-semibold text-center">
                    Need To Inquire{" "}
                    <span className="decoration-[#FFFFFF]/50 underline"></span>  
@@ -36,13 +36,13 @@ function Contact({}: Props) {
                         <EnvelopeIcon className="text-[#ffffff] h-7 w-7 animate-pulse" />
                         </a>
                         <a href="mailto:hitechcodebase@gmail.com">
-                        <p className="text-2xl">hitechcodebase@gmail.com</p>
+                        <p className="text-lg md:text-2xl">hitechcodebase@gmail.com</p>
                         </a>
                     </div>
                 </div>
 
                 <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
-                    <div className="flex space-x-2">
+                    <div className="flex space-x-1">
                         <input {...register('name')} placeholder="Name" className="contactInput" type="text"/>
                         <input {...register('email')} placeholder="Email" className="contactInput" type="email"/>
                     </div>

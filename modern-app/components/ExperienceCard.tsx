@@ -4,7 +4,7 @@ interface Props {};
 
 function ExperienceCard({}: Props) {
     return (
-        <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] 
+        <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] 
         md:w-[600px] xl:w-[900px] snap-center bg-[#334155] p-5 hover:opacity-100 opacity-40 
         cursor-pointer transition-opacity duration-200 overflow-hidden">
           <motion.div
@@ -38,9 +38,9 @@ function ExperienceCard({}: Props) {
                 alt="" 
                 />
             </div>
-            <p className="uppercase py-5 text-gray-300 text-sm md:text-xl text-center">Started work Oct 2021 - Current</p>
+            <p className="uppercase py-5 text-gray-300 text-xs md:text-xl text-center">Started work Oct 2021 - Current</p>
 
-            <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg">
+            <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg w-5/6 text-center md:w-full w-5/6 text-center md:text-left md:w-full">
             <li>Contributed to implementing scalable functionality for clients that increased web performance using JavaScript and SASS. Built the logic for a streamlined ad-serving platform. </li>
             <li>Designed and implemented several web applications for projects using a content management system Adobe Experience Manager.</li>
             <li>Created and maintained front-end code for 5+ healthcare websites (re-designs, seasonal updates, production work).</li>
