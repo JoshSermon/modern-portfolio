@@ -29,15 +29,15 @@ export default function Header({}: Props) {
         className="flex flex-row items-center">
             {/* Social Icons */}
             <SocialIcon 
-            url="https://www.youtube.com/joshhitech" 
+            url="https://www.youtube.com/@joshhitech" 
             fgColor="white" 
             bgColor="transparent" />
             <SocialIcon 
-            url="https://www.twitter.com/joshhitech" 
+            url="https://twitter.com/joshhitech" 
             fgColor="white" 
             bgColor="transparent" />
             <SocialIcon 
-            url="https://www.linkedin.com/joshhitech" 
+            url="https://www.linkedin.com/in/joshsermon/" 
             fgColor="white" 
             bgColor="transparent" />
              <SocialIcon 
