@@ -42,7 +42,7 @@ function ExperienceCard({}: Props) {
             <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg w-5/6 text-center md:w-full w-5/6 text-center md:text-left md:w-full">
             <li>Contributed to implementing scalable functionality for clients that increased web performance using JavaScript and SASS. Built the logic for a streamlined ad-serving platform. </li>
             <li>Designed and implemented several web applications for projects using a content management system Adobe Experience Manager.</li>
-            <li>Created and maintained front-end code for 5+ healthcare websites (re-designs, seasonal updates, production work).</li>
+            <li className="hidden lg:block">Created and maintained front-end code for 5+ healthcare websites (re-designs, seasonal updates, production work).</li>
             </ul>
 
             </div>

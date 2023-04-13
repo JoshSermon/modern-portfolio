@@ -43,7 +43,7 @@ function ExperienceCardTwo({}: Props) {
             <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg w-5/6 text-center md:text-left md:w-full">
                 <li>Develop new UI functionality for multithreaded user-facing applications running on touchscreen devices, using React.js and Bootstrap.</li>
                 <li>Contributed to web development projects from initial design through the completion, optimizing all cross-browser and multi-platform compatibility.</li>
-                <li>Worked in an agile environment with weekly stand-ups, kept of user stories/bugs in Trello, and conducted sprint planning.</li>
+                <li className="hidden lg:block">Worked in an agile environment with weekly stand-ups, kept of user stories/bugs in Trello, and conducted sprint planning.</li>
             </ul>
 
             </div>
