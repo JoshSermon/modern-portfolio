@@ -5,8 +5,7 @@ interface Props {};
 function ExperienceCard({}: Props) {
     return (
         <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] 
-        md:w-[600px] xl:w-[900px] snap-center bg-[#334155] p-5 hover:opacity-100 opacity-40 
-        cursor-pointer transition-opacity duration-200 overflow-hidden">
+        md:w-[600px] xl:w-[900px] snap-center p-5 transition-opacity duration-200 overflow-hidden">
           <motion.div
             initial={{
                 y: -100,

@@ -41,15 +41,15 @@ function Contact({}: Props) {
                     </div>
                 </div>
 
-                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
+                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto pl-6 overflow-x-scroll scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
                     <div className="flex space-x-1">
-                        <input {...register('name')} placeholder="Name" className="contactInput" type="text"/>
-                        <input {...register('email')} placeholder="Email" className="contactInput" type="email"/>
+                        <input {...register('name')} placeholder="Name" className="contactInput pl-1" type="text"/>
+                        <input {...register('email')} placeholder="Email" className="contactInput pl-1" type="email"/>
                     </div>
 
-                    <input {...register('subject')} placeholder="Subject" className="contactInput" type="text"/>
-                    <textarea {...register('message')} placeholder="Message" className="contactInput" />
-                    <button type="submit" className="bg-slate-800 py-5 px-10 rounded-md text-white font-bold text-lg">Submit</button>
+                    <input {...register('subject')} placeholder="Subject" className="contactInput pl-1" type="text"/>
+                    <textarea {...register('message')} placeholder="Message" className="contactInput pl-1" />
+                    <button type="submit" className="bg-slate-800 py-5 px-10 rounded-md text-white font-bold text-lg text-center pl-0">Submit</button>
                 </form>
             </div>
         </div>

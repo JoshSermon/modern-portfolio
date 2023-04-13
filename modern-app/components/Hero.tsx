@@ -13,7 +13,7 @@ export default function Hero({}: Props) {
     </div>
     
     return (
-        <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+        <div className="h-screen flex flex-col space-y-1 md:space-y-8 items-center justify-center text-center overflow-hidden mt-20 mt-0">
         <h2 className="w-max text-xs lg:text-lg uppercase pb-2 tracking-[5px] lg:tracking-[15px]">Front End Engineer</h2>
         <Fade direction="up">
          <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10 ">Josh HiTech</h1>

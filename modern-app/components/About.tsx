@@ -26,13 +26,13 @@ function About({}: Props) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             src="https://pbs.twimg.com/profile_images/1636142180392681472/HOW_Lnmo_400x400.jpg"
-            className="-mb-20 md:mb-0 flex-shrink-0 w-48 h-48 rounded-full mt-10 md:mt-none object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px]"
+            className="-mb-20 md:mb-0 flex-shrink-0 w-48 h-48 rounded-full mt-12 md:mt-10 md:mt-none object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[350px]"
             />
 
             <div className="space-y-10 px-0 md:px-10">
                 <h4 className="text-6xl font-semibold">
                 Background <span className="underline decoration-[#F7AB0A]/50"></span>{''}</h4>
-                <p className="text-xl">
+                <p className="text-md md:text-xl">
                 Hi, I am <span className="underline decoration-[#f8fafc]/50">Josh HiTech</span>!
                 I am a Front End Developer who creates successful websites that meet customer needs. 
                 I have experience producing innovative websites that engage customers and deliver business results. 
