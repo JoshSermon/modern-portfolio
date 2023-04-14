@@ -7,6 +7,7 @@
 - [Tailwind](https://tailwindcss.com/docs/guides/nextjs)
 - [Motion Framer](https://www.framer.com/motion/)
 - [React Awesome Reveal](https://react-awesome-reveal.morello.dev/)
+- [Vercel](https://vercel.com/)
 
 ## Installation 
 
@@ -17,6 +18,16 @@
 To run development server: 
 ```bash
 npm run dev
+```
+To deploy to production:
+```bash
+vercel build
+```
+```bash
+vercel deploy --prebuilt
+```
+```bash
+vercel --prod
 ```
 
 ## Unit Testing 
