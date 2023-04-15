@@ -41,7 +41,7 @@ function Contact({}: Props) {
                     </div>
                 </div>
 
-                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto pl-6 overflow-x-scroll scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
+                <form onSubmit={handleSubmit(onSubmit)} className="hidden md:flex flex-col space-y-2 w-fit mx-auto pl-6 overflow-x-scroll scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
                     <div className="flex space-x-1 text-center">
                         <input {...register('name')} placeholder="Name" className="contactInput pl-1" type="text"/>
                         <input {...register('email')} placeholder="Email" className="contactInput pl-1" type="email"/>

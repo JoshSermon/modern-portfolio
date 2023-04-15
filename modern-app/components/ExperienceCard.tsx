@@ -15,7 +15,7 @@ function ExperienceCard({}: Props) {
             whileInView={{ opacity: 1, y: 0}}
             viewport={{ once: true}}
             />
-          <img className="w-24 h:24 md:w-48 md:h-48 rounded-full xl:w-[200px] object-cover object-center"
+          <img className="w-24 h:24 md:w-48 md:h-48 rounded-full !mt-0 xl:w-[200px] object-cover object-center"
           src="https://media.licdn.com/dms/image/C4E0BAQG1W7IM12V7cA/company-logo_200_200/0/1644873692106?e=1684972800&v=beta&t=iLb-POOyFy4PV0yBQspwaGkAI8MtHJIFK-ZjVnW9yn4"
           alt=""
           />

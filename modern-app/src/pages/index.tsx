@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Header from "components/Header";
-import { Inter } from '@next/font/google'
 import Hero from "components/Hero";
 import About from "components/About";
 import Skills from "components/Skills";
@@ -61,18 +60,6 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-start">
       < Contact />
       </section>
-
-      <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-center justify-center">
-            <img className="h-7 w-10 rounded-none filter grayscale hover:grayscale-0
-            cursor-pointer md:hidden"
-            src="images/hitech-white-logo.png"
-            alt=""
-            />
-          </div>
-        </footer>
-      </Link>
       </div>
   )
 }
