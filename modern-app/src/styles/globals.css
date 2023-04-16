@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
     .heroButton{
-        @apply px-12 py-3 leading-4	md:leading-5 lg:py-2 lg:border border-[#f8fafc] w-11/12 lg:w-fit rounded-full uppercase text-sm tracking-[1rem] lg:tracking-widest transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7AB0A]/40
+        @apply font-orbitron px-12 py-3 leading-4	md:leading-5 lg:py-2 lg:border border-[#f8fafc] w-11/12 lg:w-fit rounded-full uppercase text-sm tracking-[1rem] lg:tracking-widest transition-all hover:border-[#F7ABBA]/40 hover:text-[#F7AB0A]/40
     }
 
     .contactInput{

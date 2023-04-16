@@ -10,7 +10,7 @@ function About({}: Props) {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
         className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-            <h3 className="absolute top-24 pl-6 md:pl-0 uppercase tracking-[20px] text-center text-gray-100 text-2xl">
+            <h3 className="font-orbitron absolute top-24 pl-6 md:pl-0 uppercase tracking-[20px] text-center text-gray-100 text-2xl">
             About
             </h3>
 
@@ -30,7 +30,7 @@ function About({}: Props) {
             />
 
             <div className="space-y-10 px-0 md:px-10">
-                <h4 className="text-6xl font-semibold">
+                <h4 className="text-6xl font-semibold font-orbitron">
                 Background <span className="underline decoration-[#F7AB0A]/50"></span>{''}</h4>
                 <p className="text-md md:text-xl">
                 Hi, I am <span className="underline decoration-[#f8fafc]/50">Josh HiTech</span>!

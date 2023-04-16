@@ -9,6 +9,9 @@ module.exports = {
     corePlugins: {
       aspectRatio: false,
     },
+    fontFamily: {
+      'orbitron': ['Orbitron', 'sans-serif'],
+    },
     extend: {
       backgroundImage: {
         'hero-pattern': "url('https://ca.slack-edge.com/T02QUCP5J-U02JH3N6WPM-465398917323-512')",
