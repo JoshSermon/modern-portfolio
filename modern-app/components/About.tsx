@@ -33,7 +33,7 @@ function About({}: Props) {
                 <h4 className="text-4xl md:text-6xl font-semibold font-orbitron">
                 Background <span className="underline decoration-[#F7AB0A]/50"></span>{''}</h4>
                 <p className="text-md md:text-xl">
-                Hi, I am <span className="underline decoration-[#f8fafc]/50">Josh HiTech</span>!
+                Hi, I am Josh HiTech!
                 I am a Front End Developer who creates successful websites that meet customer needs. 
                 I have experience producing innovative websites that engage customers and deliver business results. 
                 In addition, I am solution-driven to fix bugs that will allow websites to run efficiently.
