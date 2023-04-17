@@ -30,7 +30,7 @@ function About({}: Props) {
             />
 
             <div className="space-y-10 px-0 md:px-10">
-                <h4 className="text-4xl md:text-6xl font-semibold font-orbitron drop-shadow-xl">
+                <h4 className="font-orbitron drop-shadow-xl text-4xl md:text-6xl font-semibold">
                 Background <span className="underline decoration-[#F7AB0A]/50"></span>{''}</h4>
                 <p className="font-bebas-neue text-md md:text-xl">
                 Hi, I am Josh HiTech!
