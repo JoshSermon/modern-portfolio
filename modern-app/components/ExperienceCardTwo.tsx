@@ -22,8 +22,8 @@ function ExperienceCardTwo({}: Props) {
           />
 
         <div className="px-0 md:px-10">
-            <h4 className="text-2xl md:text-4xl font-light text-center">RESOLVVE</h4>
-            <p className="font-bold text:lg md:text-2xl mt-1 text-center">Front End Engineer</p>
+            <h4 className="font-bebas-neue text-2xl md:text-4xl font-light text-center">RESOLVVE</h4>
+            <p className="font-bebas-neue font-bold text:lg md:text-2xl mt-1 text-center">Front End Engineer</p>
             <div className="flex space-x-2 my-2 justify-center">
                 <img className="h-14 w-14"
                 src="/images/React-icon.png"
@@ -40,10 +40,10 @@ function ExperienceCardTwo({}: Props) {
             </div>
             <p className="uppercase py-5 text-gray-300 text-xs md:text-xl text-center">Started work Aug 2020 - Ended Oct 2021</p>
 
-            <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg w-5/6 text-center md:text-left md:w-full">
+            <ul className="font-bebas-neue list-disc space-y-4 ml-5 text-sm md:text-lg w-5/6 text-center md:text-left md:w-full">
                 <li>Develop new UI functionality for multithreaded user-facing applications running on touchscreen devices, using React.js and Bootstrap.</li>
                 <li>Contributed to web development projects from initial design through the completion, optimizing all cross-browser and multi-platform compatibility.</li>
-                <li className="hidden lg:block">Worked in an agile environment with weekly stand-ups, kept of user stories/bugs in Trello, and conducted sprint planning.</li>
+                <li className="hidden lg:list-item">Worked in an agile environment with weekly stand-ups, kept of user stories/bugs in Trello, and conducted sprint planning.</li>
             </ul>
 
             </div>

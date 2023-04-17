@@ -36,7 +36,7 @@ function Contact({}: Props) {
                         <EnvelopeIcon className="text-[#ffffff] h-7 w-7 animate-pulse" />
                         </a>
                         <a href="mailto:hitechcodebase@gmail.com">
-                        <p className="text-lg md:text-2xl">hitechcodebase@gmail.com</p>
+                        <p className="font-bebas-neue text-lg md:text-2xl">hitechcodebase@gmail.com</p>
                         </a>
                     </div>
                 </div>

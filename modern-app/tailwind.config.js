@@ -11,6 +11,7 @@ module.exports = {
     },
     fontFamily: {
       'orbitron': ['Orbitron', 'sans-serif'],
+      'bebas-neue':['Bebas-Neue', 'sans-serif']
     },
     extend: {
       backgroundImage: {

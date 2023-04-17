@@ -30,9 +30,9 @@ function About({}: Props) {
             />
 
             <div className="space-y-10 px-0 md:px-10">
-                <h4 className="text-4xl md:text-6xl font-semibold font-orbitron">
+                <h4 className="text-4xl md:text-6xl font-semibold font-orbitron drop-shadow-xl">
                 Background <span className="underline decoration-[#F7AB0A]/50"></span>{''}</h4>
-                <p className="text-md md:text-xl">
+                <p className="font-bebas-neue text-md md:text-xl">
                 Hi, I am Josh HiTech!
                 I am a Front End Developer who creates successful websites that meet customer needs. 
                 I have experience producing innovative websites that engage customers and deliver business results. 

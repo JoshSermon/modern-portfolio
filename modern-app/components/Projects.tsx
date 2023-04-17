@@ -31,12 +31,12 @@ function Projects({}: Props) {
                 </Fade>
 
             <div className="space-y-4 px-0 md:px-10 max-w-6xl">
-                <h4 className="text-3xl font-semibold text-center">
+                <h4 className="font-bebas-neue drop-shadow-xl text-3xl font-semibold text-center">
                     <span>
                     Mexico City  
                     </span>  
                 </h4>
-                <p className="text-md lg:text-xl text-center w-fit lg:w-full">
+                <p className="text-md lg:text-xl text-center w-fit lg:w-full font-bebas-neue">
                 Recently, I created this website to celebrate Cinco de Mayo. I was inspired by history of Mexico and wanted to create a website that gave a positive representation of the capital. This website is reflective of the Mexican flag and has multiple animations to provide an authentic user experience.
                 </p>
 

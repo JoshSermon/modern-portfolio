@@ -16,7 +16,7 @@ export default function Hero({}: Props) {
         <div className="h-screen flex flex-col space-y-1 md:space-y-8 items-center justify-center text-center overflow-hidden mt-20 mt-0">
         <h2 className="font-orbitron w-max text-xs lg:text-lg uppercase pb-2 tracking-[5px] lg:tracking-[15px]">Front End Engineer</h2>
         <Fade direction="up">
-         <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10 ">Josh HiTech</h1>
+         <h1 className="font-bebas-neue drop-shadow-xl text-5xl lg:text-6xl font-semibold scroll-px-10 ">Josh HiTech</h1>
         </Fade>
         <img className="relative rounded h-72 w-672 mx-auto object-cover" src="https://ca.slack-edge.com/T02QUCP5J-U02JH3N6WPM-465398917323-512" alt="" ></img>
 
