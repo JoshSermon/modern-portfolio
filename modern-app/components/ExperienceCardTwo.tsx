@@ -16,13 +16,9 @@ function ExperienceCardTwo({}: Props) {
             whileInView={{ opacity: 1, y: 0}}
             viewport={{ once: true}}
             />
-          <img className="w-24 h:24 md:w-48 md:h-48 !mt-0 rounded-full xl:w-[200px] object-cover object-center mt-0"
-          src="https://media.licdn.com/dms/image/C4E0BAQHrv722D7WD0A/company-logo_200_200/0/1519864784368?e=1686787200&v=beta&t=ucyqG82saoqjMjfsYyIBHJ4_HdSMM8sY2P6iJMxwwLY"
-          alt=""
-          />
 
         <div className="px-0 md:px-10">
-            <h4 className="font-bebas-neue text-2xl md:text-4xl font-light text-center">RESOLVVE</h4>
+            <h4 className="font-bebas-neue text-2xl md:text-4xl font-light text-center md:mt-16">RESOLVVE</h4>
             <p className="font-bebas-neue font-bold text:lg md:text-2xl mt-1 text-center">Front End Engineer</p>
             <div className="flex space-x-2 my-2 justify-center">
                 <img className="h-14 w-14"
